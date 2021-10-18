@@ -1,6 +1,7 @@
 import "./App.css";
-import FilmSlider from "./components/filmSlider";
-import styles from './App.style';
+
+import FilmsSlider from "./components/FilmsSlider";
+import styles from './App.style'
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
       <h1 style={styles.header} className="logo">
         Star wars films
       </h1>
-      <FilmSlider />
+      <FilmsSlider />
     </>
   );
 }

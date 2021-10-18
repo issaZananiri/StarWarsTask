@@ -2,16 +2,37 @@
   text-align: center;
 }
 
+.logo {
+  /* font-family: "Soloist-Z6M8"; */
+  z-index: 5;
+  color: white;
+  text-align: left;
+}
+
+a {
+  color: #A6ACC9;
+  text-decoration: none;
+}
+
+li.active > a {
+  color: white;
+}
+
+li > a:hover {
+  color: white;
+}
+
+/*  Gives a little bit of buffer when header is navigated to */
+h2, h3 {
+      padding-top: 16px;
+    margin-top: -16px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
